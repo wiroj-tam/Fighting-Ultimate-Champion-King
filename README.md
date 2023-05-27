@@ -40,8 +40,8 @@ Guide for XAMPP or WAMPP.
 5. Create database name ' pokemon_fighting '
 6. Import sql file to database. The file path is db/pokemon_fighting.sql
 If you want to change database name, follow this:
-  6.1 ( After the import is complete you can change database name )
-  6.2 ( If you change database name, you have to go to file ' config.php ' in line 6  ' define("db", "pokemon_fighting"); ' change "pokemon_fighting" to your new database name )
+6.1 ( After the import is complete you can change database name )
+6.2 ( If you change database name, you have to go to file ' config.php ' in line 6  ' define("db", "pokemon_fighting"); ' change "pokemon_fighting" to your new database name )
 7. Open any browser and type http://localhost:/Fighting-Ultimate-Champion-King/login.php 
   
 Have fun! :) 
