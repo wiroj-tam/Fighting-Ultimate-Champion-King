@@ -42,7 +42,10 @@ Guide for XAMPP or WAMPP.
 If you want to change database name, follow this:
   6.1 ( After the import is complete you can change database name )
   6.2 ( If you change database name, you have to go to file ' config.php ' in line 6  ' define("db", "pokemon_fighting"); ' change "pokemon_fighting" to your new database name )
-7. Open any browser and type http://localhost:<port number>/Fighting-Ultimate-Champion-King/login.php
+7. Open any browser and type http://localhost:<port number>/Fighting-Ultimate-Champion-King/login.php 
   
-Have fun! :)
-This project was developed in 
+Have fun! :) 
+  
+## Contact
+If you have any question, please comment or email wiroj.tam@gmail.com
+ 
