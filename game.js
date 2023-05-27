@@ -76,7 +76,7 @@ var ajax = new XMLHttpRequest();
 						else if(player['Level'] <= 2)
 							random_lvl = random(1,player['Level']);						
 						
-							alert("Hello");
+							// alert("Hello");
 						randomStat = (statP, statG) => {
 							let randomWeight = Math.random() * (0.6 - 0.4) + 0.4; // random between 0.4(inclusive) and 0.6(exclusive)
 							console.log(parseInt(statP));
@@ -357,7 +357,7 @@ function result(loser, check) {
 	ctx.drawImage(loser['Image'],loser.posX,350,128,128);
 
 
-			var exp = random(20,40) * enemy.Level;
+			var exp = random(50,100) * enemy.Level;
 
 			document.getElementById("exp").value = exp;
 			document.getElementById("pkid").value = player['PokemonID'];
